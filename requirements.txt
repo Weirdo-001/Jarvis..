@@ -1,0 +1,38 @@
+# ============================================================
+# JARVIS — Python Requirements
+# ============================================================
+
+# ---- Core AI (LLM providers) ----
+groq                    # Groq (primary — fastest)
+google-generativeai     # Gemini (secondary)
+openai                  # Cerebras + OpenRouter (tertiary/quaternary — OpenAI-compatible)
+python-dotenv           # environment variable management (.env)
+
+# ---- Voice — STT ----
+SpeechRecognition       # audio capture + Google STT fallback
+openai-whisper          # Whisper STT (best quality, punctuation-aware)
+pyaudio                 # microphone input backend
+
+# ---- Voice — TTS ----
+edge-tts                # Microsoft neural voices (British, natural)
+pygame                  # audio playback (reliable cross-platform)
+playsound               # audio playback alternative
+
+# ---- System control ----
+keyboard                # hotkey / push-to-talk
+pyautogui               # screenshots
+psutil                  # CPU / RAM / battery stats
+pycaw                   # Windows volume control
+comtypes                # pycaw dependency
+pyperclip               # clipboard access
+
+# ---- Interview mode ----
+pdfplumber              # PDF resume/JD parsing
+opencv-python           # camera face detection (proctoring)
+pywin32                 # screen/window monitoring (Windows)
+
+# ---- Offline TTS fallback ----
+pyttsx3                 # offline TTS engine
+
+# ---- Optional (faster numpy for Whisper) ----
+numpy

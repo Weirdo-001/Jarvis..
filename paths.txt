@@ -1,0 +1,20 @@
+# ============================================================
+# JARVIS Paths Configuration File
+# ============================================================
+# Paste your FULL absolute file paths below.
+# Jarvis reads this file when starting interview mode.
+#
+# HOW TO USE:
+#   - Say "Jarvis, open paths" to open this file in Notepad
+#   - Paste your paths next to resume: and jd:
+#   - Save and close Notepad — Jarvis will use them
+#
+# FORMAT:  key: C:\full\path\to\file.pdf
+#
+# EXAMPLES:
+#   resume: C:\Users\aarus\Downloads\Aarushi_Resume.pdf
+#   jd: C:\Users\aarus\Downloads\Tekion_JD_Software.pdf
+# ============================================================
+
+resume: C:\Users\aarus\Downloads\Aarushi_Final_resume (1).pdf
+jd: 

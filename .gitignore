@@ -1,0 +1,31 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and bytecode
+__pycache__/
+jarvis_core/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Audio temporary files / cache
+*.mp3
+*.wav
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
